@@ -1,0 +1,26 @@
+[
+  {
+  "browserName": "Chrome",
+  "browserVersion": "104.0",
+  "LT:Options": {
+    "username": "makwanashyamal96",
+    "accessKey": "1BJJ8UAUzbnzNdkttNNaXVPG2sITjbPiGoF5ydAowcx3kZcItu",
+    "platformName": "Windows 10",
+    "project": "Untitled",
+    "name": "parallel test 1",
+    "console": "error"
+  }
+},
+  {
+  "browserName": "Firefox",
+  "browserVersion": "104.0",
+  "LT:Options": {
+    "username": "makwanashyamal96",
+    "accessKey": "1BJJ8UAUzbnzNdkttNNaXVPG2sITjbPiGoF5ydAowcx3kZcItu",
+    "platformName": "Windows 10",
+    "project": "Untitled",
+    "name": "parallel test 2",
+    "console": "error"
+  }
+}
+]

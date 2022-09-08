@@ -1,0 +1,336 @@
+{"level":"info","time":"2022-09-08T02:56:36.140+0530","caller":"cobra/command.go:854","msg":"LambdaTest Tunnel version: 3.1.24"}
+{"level":"debug","time":"2022-09-08T02:56:36.140+0530","caller":"cmd/lt.go:205","msg":"Starting pipeline....."}
+{"level":"debug","time":"2022-09-08T02:56:36.140+0530","caller":"cmd/lt.go:205","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2022-09-08T02:56:36.140+0530","caller":"cmd/lt.go:205","msg":"Fetching config"}
+{"level":"warn","time":"2022-09-08T02:56:36.140+0530","caller":"core/lifecycle.go:47","msg":"Tunnel Name was not specified, using: e59af922-f31c-4d43-8b4c-3cc733d8c721"}
+{"level":"debug","time":"2022-09-08T02:56:36.140+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting tunnel With flags: --user makwanashyamal96@gmail.com --key ***** --dir C:\\Windows\\System32\\cmd.exe"}
+{"level":"debug","time":"2022-09-08T02:56:36.587+0530","caller":"cmd/lt.go:205","msg":"Remote config fetched"}
+{"level":"debug","time":"2022-09-08T02:56:36.678+0530","caller":"core/lifecycle.go:178","msg":"Starting File server"}
+{"level":"debug","time":"2022-09-08T02:56:36.678+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 22"}
+{"level":"debug","time":"2022-09-08T02:56:36.678+0530","caller":"fileserver/setup.go:96","msg":"Starting File server for tunnel info on port: 33000"}
+{"level":"debug","time":"2022-09-08T02:56:36.678+0530","caller":"core/lifecycle.go:138","msg":"Starting sink proxy"}
+{"level":"debug","time":"2022-09-08T02:56:36.678+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 443"}
+{"level":"debug","time":"2022-09-08T02:56:36.678+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying over ssh over ws"}
+{"level":"info","time":"2022-09-08T02:56:36.729+0530","caller":"custom/setup.go:740","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2022-09-08T02:56:36.739+0530","caller":"runtime/asm_amd64.s:1371","msg":"WSS connection was successful"}
+{"level":"debug","time":"2022-09-08T02:56:37.288+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2022-09-08T02:56:37.319+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2022-09-08T02:56:37.319+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2022-09-08T02:56:37.319+0530","caller":"core/lifecycle.go:115","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"debug","time":"2022-09-08T02:56:37.329+0530","caller":"core/lifecycle.go:233","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"info","time":"2022-09-08T02:56:37.329+0530","caller":"cmd/lt.go:205","msg":"Launching tunnel"}
+{"level":"debug","time":"2022-09-08T02:56:37.982+0530","caller":"core/lifecycle.go:233","msg":"Control ws channel opened"}
+{"level":"debug","time":"2022-09-08T02:56:37.982+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2022-09-08T02:56:39.646+0530","caller":"runtime/asm_amd64.s:1371","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2022-09-08T02:56:39.646+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2022-09-08T02:56:39.646+0530","caller":"runtime/asm_amd64.s:1371","msg":"controller bus registered"}
+{"level":"debug","time":"2022-09-08T02:56:39.646+0530","caller":"core/lifecycle.go:283","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2022-09-08T02:56:40.257+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 23024"}
+{"level":"debug","time":"2022-09-08T02:56:40.257+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 26097"}
+{"level":"info","time":"2022-09-08T02:56:40.257+0530","caller":"runtime/asm_amd64.s:1371","msg":"You can start testing now"}
+{"level":"info","time":"2022-09-08T02:56:40.257+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel ID: 2089502"}
+{"level":"debug","time":"2022-09-08T02:56:40.257+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote Listener Started on Port 30279"}
+{"level":"debug","time":"2022-09-08T02:56:40.277+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 8029"}
+{"level":"debug","time":"2022-09-08T02:56:40.400+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 16141"}
+{"level":"debug","time":"2022-09-08T02:56:40.400+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 7606"}
+{"level":"debug","time":"2022-09-08T02:56:45.795+0530","caller":"cobra/command.go:854","msg":"main: received interrupt signal - attempting graceful shutdown ...."}
+{"level":"debug","time":"2022-09-08T02:56:45.795+0530","caller":"cobra/command.go:854","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2022-09-08T02:56:45.795+0530","caller":"runtime/asm_amd64.s:1371","msg":"Shutting down the server"}
+{"level":"debug","time":"2022-09-08T02:56:45.795+0530","caller":"custom/setup.go:740","msg":"Exiting the sink proxy"}
+{"level":"debug","time":"2022-09-08T02:56:45.795+0530","caller":"cmd/lt.go:205","msg":"Context cancelled"}
+{"level":"info","time":"2022-09-08T02:56:45.795+0530","caller":"cmd/lt.go:205","msg":"Stopping tunnel"}
+{"level":"debug","time":"2022-09-08T02:56:45.797+0530","caller":"runtime/asm_amd64.s:1371","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2022-09-08T02:56:45.797+0530","caller":"runtime/asm_amd64.s:1371","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2022-09-08T02:56:46.364+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 8029 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T02:56:46.364+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 23024 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T02:56:46.364+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 7606 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T02:56:46.364+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 8029"}
+{"level":"debug","time":"2022-09-08T02:56:46.364+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 23024"}
+{"level":"debug","time":"2022-09-08T02:56:46.364+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 7606"}
+{"level":"debug","time":"2022-09-08T02:56:46.364+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 26097 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T02:56:46.364+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 26097"}
+{"level":"debug","time":"2022-09-08T02:56:46.365+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 16141 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T02:56:46.365+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 16141"}
+{"level":"info","time":"2022-09-08T02:56:46.600+0530","caller":"cmd/lt.go:205","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2022-09-08T02:56:46.611+0530","caller":"cmd/lt.go:205","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2022-09-08T02:56:46.611+0530","caller":"cmd/lt.go:205","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2022-09-08T02:56:46.611+0530","caller":"cmd/lt.go:205","msg":"All goroutines exited"}
+{"level":"debug","time":"2022-09-08T02:56:46.611+0530","caller":"runtime/asm_amd64.s:1371","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2022-09-08T02:56:46.611+0530","caller":"cobra/command.go:854","msg":"Go routines exited within timeout"}
+{"level":"info","time":"2022-09-08T02:56:53.821+0530","caller":"cobra/command.go:854","msg":"LambdaTest Tunnel version: 3.1.24"}
+{"level":"debug","time":"2022-09-08T02:56:53.832+0530","caller":"cmd/lt.go:205","msg":"Starting pipeline....."}
+{"level":"debug","time":"2022-09-08T02:56:53.832+0530","caller":"cmd/lt.go:205","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2022-09-08T02:56:53.832+0530","caller":"cmd/lt.go:205","msg":"Fetching config"}
+{"level":"warn","time":"2022-09-08T02:56:53.832+0530","caller":"core/lifecycle.go:47","msg":"Tunnel Name was not specified, using: 367c975b-b49e-4aa2-83a3-0a71fc3c8a4c"}
+{"level":"debug","time":"2022-09-08T02:56:53.832+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting tunnel With flags: --user makwanashyamal96@gmail.com --key ***** --dir C:\\Windows\\System32\\cmd.exe Assignment"}
+{"level":"debug","time":"2022-09-08T02:56:54.257+0530","caller":"cmd/lt.go:205","msg":"Remote config fetched"}
+{"level":"debug","time":"2022-09-08T02:56:54.542+0530","caller":"core/lifecycle.go:178","msg":"Starting File server"}
+{"level":"debug","time":"2022-09-08T02:56:54.542+0530","caller":"fileserver/setup.go:96","msg":"Starting File server for tunnel info on port: 33000"}
+{"level":"debug","time":"2022-09-08T02:56:54.542+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 443"}
+{"level":"debug","time":"2022-09-08T02:56:54.542+0530","caller":"core/lifecycle.go:138","msg":"Starting sink proxy"}
+{"level":"debug","time":"2022-09-08T02:56:54.542+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2022-09-08T02:56:54.542+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 22"}
+{"level":"info","time":"2022-09-08T02:56:54.596+0530","caller":"custom/setup.go:740","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2022-09-08T02:56:54.597+0530","caller":"runtime/asm_amd64.s:1371","msg":"WSS connection was successful"}
+{"level":"debug","time":"2022-09-08T02:56:55.166+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2022-09-08T02:56:55.166+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2022-09-08T02:56:55.176+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2022-09-08T02:56:55.176+0530","caller":"core/lifecycle.go:115","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"debug","time":"2022-09-08T02:56:55.176+0530","caller":"core/lifecycle.go:233","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"info","time":"2022-09-08T02:56:55.176+0530","caller":"cmd/lt.go:205","msg":"Launching tunnel"}
+{"level":"debug","time":"2022-09-08T02:56:55.889+0530","caller":"core/lifecycle.go:233","msg":"Control ws channel opened"}
+{"level":"debug","time":"2022-09-08T02:56:55.889+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2022-09-08T02:56:57.385+0530","caller":"runtime/asm_amd64.s:1371","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2022-09-08T02:56:57.385+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2022-09-08T02:56:57.385+0530","caller":"core/lifecycle.go:283","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2022-09-08T02:56:57.385+0530","caller":"runtime/asm_amd64.s:1371","msg":"controller bus registered"}
+{"level":"debug","time":"2022-09-08T02:56:58.003+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 11117"}
+{"level":"debug","time":"2022-09-08T02:56:58.003+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 25081"}
+{"level":"info","time":"2022-09-08T02:56:58.003+0530","caller":"runtime/asm_amd64.s:1371","msg":"You can start testing now"}
+{"level":"info","time":"2022-09-08T02:56:58.003+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel ID: 2089503"}
+{"level":"debug","time":"2022-09-08T02:56:58.003+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote Listener Started on Port 1131"}
+{"level":"debug","time":"2022-09-08T02:56:58.003+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 5713"}
+{"level":"debug","time":"2022-09-08T02:56:58.106+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 30475"}
+{"level":"debug","time":"2022-09-08T02:56:58.126+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 18044"}
+{"level":"debug","time":"2022-09-08T02:58:16.137+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:16.170+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://clients2.google.com:443"}
+{"level":"debug","time":"2022-09-08T02:58:16.177+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://accounts.google.com:443"}
+{"level":"debug","time":"2022-09-08T02:58:16.440+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:16 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000420700 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:16.651+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:16.954+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:16 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0002ea100 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:17.491+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://clients2.googleusercontent.com:443"}
+{"level":"debug","time":"2022-09-08T02:58:18.264+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:18.580+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:18 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0002ea400 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:18.813+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:19.117+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:19 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000420c00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:19.360+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:19.675+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:19 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000520400 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:19.886+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:20.192+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:20 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0002ea800 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:20.416+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:20.720+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:20 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0002ea900 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:20.946+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:20.963+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://www.google.com:443"}
+{"level":"debug","time":"2022-09-08T02:58:21.252+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:21 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0000e9a00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:21.461+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:21.771+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:21 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0000e9500 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:21.979+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:22.287+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:22 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0002ea400 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:22.496+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:22.810+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:22 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0002ea500 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:23.021+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:23.330+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:23 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0000e9e00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:23.538+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:23.848+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:23 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0002ea900 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:24.055+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:24.365+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:24 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000520200 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:24.575+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:24.882+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:24 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000421400 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:25.089+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:25.405+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:25 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000421500 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:25.611+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:25.922+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:25 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000520800 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:26.132+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:26.442+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:26 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000421700 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:26.650+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:26.961+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:26 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000520a00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:27.167+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:27.481+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:27 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0004f2400 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:27.691+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:28.000+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:28 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000421900 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:28.206+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:28.358+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:28.517+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:28 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000421a00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:28.673+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:28 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0004f2700 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:28.885+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:29.192+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:29 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000421d00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:29.405+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:29.710+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:29 GMT] Location:[..//]] {} 0 [] false false map[] 0xc000421e00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:29.922+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:30.233+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:30 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0002eaf00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:30.447+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T02:58:30.748+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{301 Moved Permanently 301 HTTP/1.1 1 1 map[Content-Length:[0] Date:[Wed, 07 Sep 2022 21:28:30 GMT] Location:[..//]] {} 0 [] false false map[] 0xc0004f2b00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:01:29.714+0530","caller":"cobra/command.go:854","msg":"main: received interrupt signal - attempting graceful shutdown ...."}
+{"level":"debug","time":"2022-09-08T03:01:29.714+0530","caller":"cobra/command.go:854","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2022-09-08T03:01:29.714+0530","caller":"runtime/asm_amd64.s:1371","msg":"Shutting down the server"}
+{"level":"debug","time":"2022-09-08T03:01:29.714+0530","caller":"custom/setup.go:740","msg":"Exiting the sink proxy"}
+{"level":"debug","time":"2022-09-08T03:01:29.714+0530","caller":"cmd/lt.go:205","msg":"Context cancelled"}
+{"level":"debug","time":"2022-09-08T03:01:29.715+0530","caller":"runtime/asm_amd64.s:1371","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2022-09-08T03:01:29.715+0530","caller":"runtime/asm_amd64.s:1371","msg":"Write loop ended for control channel"}
+{"level":"info","time":"2022-09-08T03:01:29.714+0530","caller":"cmd/lt.go:205","msg":"Stopping tunnel"}
+{"level":"debug","time":"2022-09-08T03:01:30.264+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 11117 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:01:30.277+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 11117"}
+{"level":"debug","time":"2022-09-08T03:01:30.277+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 5713 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:01:30.277+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 5713"}
+{"level":"debug","time":"2022-09-08T03:01:30.277+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 25081 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:01:30.277+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 25081"}
+{"level":"debug","time":"2022-09-08T03:01:30.277+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 30475 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:01:30.278+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 30475"}
+{"level":"debug","time":"2022-09-08T03:01:30.278+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 18044 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:01:30.278+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 18044"}
+{"level":"info","time":"2022-09-08T03:01:30.527+0530","caller":"cmd/lt.go:205","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2022-09-08T03:01:30.542+0530","caller":"cmd/lt.go:205","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2022-09-08T03:01:30.542+0530","caller":"cmd/lt.go:205","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2022-09-08T03:01:30.542+0530","caller":"cmd/lt.go:205","msg":"All goroutines exited"}
+{"level":"debug","time":"2022-09-08T03:01:30.542+0530","caller":"runtime/asm_amd64.s:1371","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2022-09-08T03:01:30.542+0530","caller":"cobra/command.go:854","msg":"Go routines exited within timeout"}
+{"level":"info","time":"2022-09-08T03:02:15.685+0530","caller":"cobra/command.go:854","msg":"LambdaTest Tunnel version: 3.1.24"}
+{"level":"debug","time":"2022-09-08T03:02:15.685+0530","caller":"cmd/lt.go:205","msg":"Starting pipeline....."}
+{"level":"debug","time":"2022-09-08T03:02:15.685+0530","caller":"cmd/lt.go:205","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2022-09-08T03:02:15.685+0530","caller":"cmd/lt.go:205","msg":"Fetching config"}
+{"level":"warn","time":"2022-09-08T03:02:15.685+0530","caller":"core/lifecycle.go:47","msg":"Tunnel Name was not specified, using: de3dda37-c344-44d4-9e2a-b0b1ffe563c0"}
+{"level":"debug","time":"2022-09-08T03:02:15.685+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting tunnel With flags: --user makwanashyamal96@gmail.com --key ***** --dir C:\\Windows\\System32\\cmd.exe"}
+{"level":"debug","time":"2022-09-08T03:02:16.121+0530","caller":"cmd/lt.go:205","msg":"Remote config fetched"}
+{"level":"debug","time":"2022-09-08T03:02:16.427+0530","caller":"core/lifecycle.go:178","msg":"Starting File server"}
+{"level":"debug","time":"2022-09-08T03:02:16.427+0530","caller":"fileserver/setup.go:96","msg":"Starting File server for tunnel info on port: 33000"}
+{"level":"debug","time":"2022-09-08T03:02:16.427+0530","caller":"core/lifecycle.go:138","msg":"Starting sink proxy"}
+{"level":"debug","time":"2022-09-08T03:02:16.427+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 22"}
+{"level":"debug","time":"2022-09-08T03:02:16.427+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2022-09-08T03:02:16.427+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 443"}
+{"level":"debug","time":"2022-09-08T03:02:16.478+0530","caller":"runtime/asm_amd64.s:1371","msg":"WSS connection was successful"}
+{"level":"info","time":"2022-09-08T03:02:16.478+0530","caller":"custom/setup.go:740","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2022-09-08T03:02:17.045+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2022-09-08T03:02:17.061+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2022-09-08T03:02:17.081+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2022-09-08T03:02:17.081+0530","caller":"core/lifecycle.go:115","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"debug","time":"2022-09-08T03:02:17.081+0530","caller":"core/lifecycle.go:233","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"info","time":"2022-09-08T03:02:17.081+0530","caller":"cmd/lt.go:205","msg":"Launching tunnel"}
+{"level":"debug","time":"2022-09-08T03:02:17.692+0530","caller":"core/lifecycle.go:233","msg":"Control ws channel opened"}
+{"level":"debug","time":"2022-09-08T03:02:17.692+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2022-09-08T03:02:19.179+0530","caller":"runtime/asm_amd64.s:1371","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2022-09-08T03:02:19.179+0530","caller":"core/lifecycle.go:283","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2022-09-08T03:02:19.179+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2022-09-08T03:02:19.179+0530","caller":"runtime/asm_amd64.s:1371","msg":"controller bus registered"}
+{"level":"debug","time":"2022-09-08T03:02:19.763+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 29090"}
+{"level":"debug","time":"2022-09-08T03:02:19.791+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 1107"}
+{"level":"info","time":"2022-09-08T03:02:19.791+0530","caller":"runtime/asm_amd64.s:1371","msg":"You can start testing now"}
+{"level":"debug","time":"2022-09-08T03:02:19.791+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 9058"}
+{"level":"info","time":"2022-09-08T03:02:19.791+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel ID: 2089569"}
+{"level":"debug","time":"2022-09-08T03:02:19.791+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote Listener Started on Port 18282"}
+{"level":"debug","time":"2022-09-08T03:02:19.881+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 27722"}
+{"level":"debug","time":"2022-09-08T03:02:19.884+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 6225"}
+{"level":"debug","time":"2022-09-08T03:04:05.894+0530","caller":"cobra/command.go:854","msg":"main: received interrupt signal - attempting graceful shutdown ...."}
+{"level":"debug","time":"2022-09-08T03:04:05.895+0530","caller":"cobra/command.go:854","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2022-09-08T03:04:05.895+0530","caller":"runtime/asm_amd64.s:1371","msg":"Shutting down the server"}
+{"level":"debug","time":"2022-09-08T03:04:05.895+0530","caller":"cmd/lt.go:205","msg":"Context cancelled"}
+{"level":"debug","time":"2022-09-08T03:04:05.895+0530","caller":"custom/setup.go:740","msg":"Exiting the sink proxy"}
+{"level":"info","time":"2022-09-08T03:04:05.895+0530","caller":"cmd/lt.go:205","msg":"Stopping tunnel"}
+{"level":"debug","time":"2022-09-08T03:04:05.896+0530","caller":"runtime/asm_amd64.s:1371","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2022-09-08T03:04:05.896+0530","caller":"runtime/asm_amd64.s:1371","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2022-09-08T03:04:06.480+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 29090 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:04:06.481+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 29090"}
+{"level":"debug","time":"2022-09-08T03:04:06.482+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 1107 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:04:06.482+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 1107"}
+{"level":"debug","time":"2022-09-08T03:04:06.482+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 9058 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:04:06.482+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 9058"}
+{"level":"debug","time":"2022-09-08T03:04:06.482+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 6225 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:04:06.482+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote connection on remote port: 27722 closed, reason: EOF"}
+{"level":"debug","time":"2022-09-08T03:04:06.482+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 27722"}
+{"level":"debug","time":"2022-09-08T03:04:06.482+0530","caller":"runtime/asm_amd64.s:1371","msg":"closed ssh connection with port 6225"}
+{"level":"info","time":"2022-09-08T03:04:06.727+0530","caller":"cmd/lt.go:205","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2022-09-08T03:04:06.729+0530","caller":"cmd/lt.go:205","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2022-09-08T03:04:06.729+0530","caller":"cmd/lt.go:205","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2022-09-08T03:04:06.729+0530","caller":"cmd/lt.go:205","msg":"All goroutines exited"}
+{"level":"debug","time":"2022-09-08T03:04:06.729+0530","caller":"runtime/asm_amd64.s:1371","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2022-09-08T03:04:06.729+0530","caller":"cobra/command.go:854","msg":"Go routines exited within timeout"}
+{"level":"info","time":"2022-09-08T03:04:11.486+0530","caller":"cobra/command.go:854","msg":"LambdaTest Tunnel version: 3.1.24"}
+{"level":"debug","time":"2022-09-08T03:04:11.486+0530","caller":"cmd/lt.go:205","msg":"Starting pipeline....."}
+{"level":"debug","time":"2022-09-08T03:04:11.486+0530","caller":"cmd/lt.go:205","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2022-09-08T03:04:11.486+0530","caller":"cmd/lt.go:205","msg":"Fetching config"}
+{"level":"warn","time":"2022-09-08T03:04:11.486+0530","caller":"core/lifecycle.go:47","msg":"Tunnel Name was not specified, using: 609089b0-56c9-49c1-8624-dfd448018871"}
+{"level":"debug","time":"2022-09-08T03:04:11.486+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting tunnel With flags: --user makwanashyamal96@gmail.com --key ***** --dir C:\\Users\\makwa\\Desktop\\LT_assignment"}
+{"level":"debug","time":"2022-09-08T03:04:11.908+0530","caller":"cmd/lt.go:205","msg":"Remote config fetched"}
+{"level":"debug","time":"2022-09-08T03:04:12.132+0530","caller":"core/lifecycle.go:178","msg":"Starting File server"}
+{"level":"debug","time":"2022-09-08T03:04:12.132+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 22"}
+{"level":"debug","time":"2022-09-08T03:04:12.132+0530","caller":"fileserver/setup.go:96","msg":"Starting File server for tunnel info on port: 33000"}
+{"level":"debug","time":"2022-09-08T03:04:12.132+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 443"}
+{"level":"debug","time":"2022-09-08T03:04:12.132+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2022-09-08T03:04:12.132+0530","caller":"core/lifecycle.go:138","msg":"Starting sink proxy"}
+{"level":"info","time":"2022-09-08T03:04:12.183+0530","caller":"custom/setup.go:740","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2022-09-08T03:04:12.183+0530","caller":"runtime/asm_amd64.s:1371","msg":"WSS connection was successful"}
+{"level":"debug","time":"2022-09-08T03:04:12.733+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2022-09-08T03:04:12.767+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2022-09-08T03:04:12.783+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2022-09-08T03:04:12.783+0530","caller":"core/lifecycle.go:115","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"debug","time":"2022-09-08T03:04:12.784+0530","caller":"core/lifecycle.go:233","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"info","time":"2022-09-08T03:04:12.784+0530","caller":"cmd/lt.go:205","msg":"Launching tunnel"}
+{"level":"debug","time":"2022-09-08T03:04:13.084+0530","caller":"core/lifecycle.go:233","msg":"Control ws channel opened"}
+{"level":"debug","time":"2022-09-08T03:04:13.084+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2022-09-08T03:04:14.968+0530","caller":"runtime/asm_amd64.s:1371","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2022-09-08T03:04:14.968+0530","caller":"core/lifecycle.go:283","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2022-09-08T03:04:14.968+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2022-09-08T03:04:14.968+0530","caller":"runtime/asm_amd64.s:1371","msg":"controller bus registered"}
+{"level":"debug","time":"2022-09-08T03:04:15.572+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 9020"}
+{"level":"debug","time":"2022-09-08T03:04:15.572+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 22876"}
+{"level":"debug","time":"2022-09-08T03:04:15.572+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 13145"}
+{"level":"info","time":"2022-09-08T03:04:15.572+0530","caller":"runtime/asm_amd64.s:1371","msg":"You can start testing now"}
+{"level":"info","time":"2022-09-08T03:04:15.573+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel ID: 2089575"}
+{"level":"debug","time":"2022-09-08T03:04:15.574+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote Listener Started on Port 28069"}
+{"level":"debug","time":"2022-09-08T03:04:15.686+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 23455"}
+{"level":"debug","time":"2022-09-08T03:04:15.715+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 9468"}
+{"level":"debug","time":"2022-09-08T03:04:31.706+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:04:31.723+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://clients2.google.com:443"}
+{"level":"debug","time":"2022-09-08T03:04:31.772+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://accounts.google.com:443"}
+{"level":"debug","time":"2022-09-08T03:04:32.021+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Content-Length:[75] Content-Type:[text/html; charset=utf-8] Date:[Wed, 07 Sep 2022 21:34:32 GMT] Last-Modified:[Wed, 07 Sep 2022 21:06:32 GMT]] 0xc000306100 75 [] false false map[] 0xc000278300 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:04:32.333+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:04:32.642+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{404 Not Found 404 HTTP/1.1 1 1 map[Content-Length:[19] Content-Type:[text/plain; charset=utf-8] Date:[Wed, 07 Sep 2022 21:34:32 GMT] X-Content-Type-Options:[nosniff]] 0xc0000b0380 19 [] false false map[] 0xc000278600 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:04:33.270+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://clients2.googleusercontent.com:443"}
+{"level":"debug","time":"2022-09-08T03:04:36.613+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://www.google.com:443"}
+{"level":"debug","time":"2022-09-08T03:04:57.285+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:04:57.602+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Content-Length:[279] Content-Type:[text/html; charset=utf-8] Date:[Wed, 07 Sep 2022 21:34:57 GMT] Last-Modified:[Wed, 07 Sep 2022 21:26:36 GMT]] 0xc000061180 279 [] false false map[] 0xc000128b00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:05:07.398+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:05:07.736+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Content-Length:[2271] Content-Type:[text/x-python; charset=utf-8] Date:[Wed, 07 Sep 2022 21:35:07 GMT] Last-Modified:[Wed, 07 Sep 2022 21:21:33 GMT]] 0xc0000b01c0 2271 [] false false map[] 0xc00008ca00 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:05:31.656+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://www.gstatic.com:443"}
+{"level":"debug","time":"2022-09-08T03:05:36.597+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://www.google.com:443"}
+{"level":"debug","time":"2022-09-08T03:05:43.652+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:05:43.752+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Age:[0] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:35:43 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] {} 6760942 [] false false map[] 0xc00008cb00 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:05.143+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:05.232+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[5316] Content-Range:[bytes 0-5315/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:04 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000061ac0 5316 [] false false map[] 0xc00008cc00 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:12.056+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:06:12.369+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Content-Length:[47273] Content-Type:[text/plain; charset=utf-8] Date:[Wed, 07 Sep 2022 21:36:12 GMT] Last-Modified:[Wed, 07 Sep 2022 21:36:12 GMT]] 0xc0000b0c40 47273 [] false false map[] 0xc000499000 <nil>} for http request from host local-folder.lambdatest.com"}
+{"level":"debug","time":"2022-09-08T03:06:19.148+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:19.334+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[8919] Content-Range:[bytes 5316-14234/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:18 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0003a8a40 8919 [] false false map[] 0xc000499300 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:21.610+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:21.698+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[11385] Content-Range:[bytes 14235-25619/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:21 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000060840 11385 [] false false map[] 0xc00008c000 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:23.120+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:23.210+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[11385] Content-Range:[bytes 25620-37004/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:22 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0003060c0 11385 [] false false map[] 0xc00008ca00 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:24.475+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:24.564+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[24182] Content-Range:[bytes 37005-61186/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:24 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0000b02c0 24182 [] false false map[] 0xc00008cc00 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:25.883+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:25.971+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[49313] Content-Range:[bytes 61187-110499/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:25 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000060ac0 49313 [] false false map[] 0xc000499300 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:27.259+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:27.349+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[68886] Content-Range:[bytes 110500-179385/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:26 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000306380 68886 [] false false map[] 0xc000499400 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:28.623+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:28.708+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[93265] Content-Range:[bytes 179386-272650/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:28 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000306400 93265 [] false false map[] 0xc000499500 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:29.988+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:30.076+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[143254] Content-Range:[bytes 272651-415904/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:29 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000306480 143254 [] false false map[] 0xc000278100 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:31.356+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:31.445+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[205925] Content-Range:[bytes 415905-621829/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:30 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0000b0ac0 205925 [] false false map[] 0xc00008cf00 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:32.720+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:32.815+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[362312] Content-Range:[bytes 621830-984141/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:32 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0000b0b40 362312 [] false false map[] 0xc00008d100 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:34.089+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:34.179+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[475729] Content-Range:[bytes 984142-1459870/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:33 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0000b0c00 475729 [] false false map[] 0xc00008d300 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:35.462+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:36.182+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[540120] Content-Range:[bytes 1459871-1999990/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:35 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000061140 540120 [] false false map[] 0xc000128c00 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:36.713+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://www.google.com:443"}
+{"level":"debug","time":"2022-09-08T03:06:37.356+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:39.182+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[433506] Content-Range:[bytes 1999991-2433496/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:38 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0000b0c80 433506 [] false false map[] 0xc000129500 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:40.355+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:40.447+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[422985] Content-Range:[bytes 2433497-2856481/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:39 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0000b0d40 422985 [] false false map[] 0xc000278200 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:41.856+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:43.576+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[572139] Content-Range:[bytes 2856482-3428620/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:43 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000306f00 572139 [] false false map[] 0xc000129700 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:45.226+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:45.322+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[409044] Content-Range:[bytes 3428621-3837664/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:44 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0000b0e80 409044 [] false false map[] 0xc000278300 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:46.631+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:48.478+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[561541] Content-Range:[bytes 3837665-4399205/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:48 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000061700 561541 [] false false map[] 0xc000278400 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:50.129+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:50.221+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[401620] Content-Range:[bytes 4399206-4800825/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:49 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0003a8ec0 401620 [] false false map[] 0xc000499600 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:51.539+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:51.632+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[545774] Content-Range:[bytes 4800826-5346599/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:51 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc000061780 545774 [] false false map[] 0xc000129a00 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:52.923+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:53.015+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[555754] Content-Range:[bytes 5346600-5902353/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:52 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0003070c0 555754 [] false false map[] 0xc00008d700 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:54.304+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:56.141+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[580306] Content-Range:[bytes 5902354-6482659/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:55 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0000618c0 580306 [] false false map[] 0xc00008d800 <nil>} for http request from host dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:57.622+0530","caller":"runtime/asm_amd64.s:1371","msg":"handle http request for dl.google.com"}
+{"level":"debug","time":"2022-09-08T03:06:57.715+0530","caller":"runtime/asm_amd64.s:1371","msg":"Response &{206 Partial Content 206 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[public,max-age=86400] Content-Disposition:[attachment] Content-Length:[278282] Content-Range:[bytes 6482660-6760941/6760942] Content-Security-Policy:[default-src 'none'] Content-Type:[application/x-chrome-extension] Date:[Wed, 07 Sep 2022 21:36:57 GMT] Etag:[\"2e2fe7\"] Last-Modified:[Wed, 10 Oct 2018 17:49:21 GMT] Server:[downloads] X-Content-Type-Options:[nosniff] X-Frame-Options:[SAMEORIGIN] X-Xss-Protection:[0]] 0xc0003a9400 278282 [] false false map[] 0xc000129c00 <nil>} for http request from host dl.google.com"}
+{"level":"info","time":"2022-09-08T03:09:54.206+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel closure requested from server. Exiting"}
