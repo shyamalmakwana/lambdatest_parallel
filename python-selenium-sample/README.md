@@ -1,28 +1,4 @@
-# Run Selenium Tests With Python On LambdaTest
-
-![171934563-4806efd2-1154-494c-a01d-1def95657383 (1)](https://user-images.githubusercontent.com/70570645/172273386-fa9606ac-3e63-4b2e-8978-3142add3e038.png)
-
-
-<p align="center">
-  <a href="https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=python-selenium-sample" target="_bank">Blog</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=python-selenium-sample" target="_bank">Docs</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=python-selenium-sample" target="_bank">Learning Hub</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/newsletter/?utm_source=github&utm_medium=repo&utm_campaign=python-selenium-sample" target="_bank">Newsletter</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/certifications/?utm_source=github&utm_medium=repo&utm_campaign=python-selenium-sample" target="_bank">Certifications</a>
-  &nbsp; &#8901; &nbsp;
-  <a href="https://www.youtube.com/c/LambdaTest" target="_bank">YouTube</a>
-</p>
-&emsp;
-&emsp;
-&emsp;
-
-*Learn how to run your Python automation testing scripts on the LambdaTest platform*
-
-[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
+# Amazon web scraping with Selenium On LambdaTest
 
 
 ## Table Of Contents
@@ -72,6 +48,6 @@ Make sure you have your LambdaTest credentials with you to run test automation s
   set LT_ACCESS_KEY="YOUR ACCESS KEY"
   ```
 
-### run to execute paraller tests
+### run 
 ```python parallel.py```
 
